@@ -16,6 +16,6 @@
 
         // Add getter methods for the properties
 
-        // Add any additional methods you need
+        // Add any additional methods
     }
 ?>
