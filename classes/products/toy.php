@@ -5,7 +5,14 @@
         private $nutritionalValues;
         private $foodType;
     
-        public function __construct($title, $subtitle, $description, $price, $nutritionalValues, $foodType) {
+        public function __construct(
+            $title, 
+            $subtitle, 
+            $description, 
+            $price, 
+            $nutritionalValues, 
+            $foodType,
+        ) {
             parent::__construct($title, $subtitle, $description, $price);
             $this->nutritionalValues = $nutritionalValues;
             $this->foodType = $foodType;
