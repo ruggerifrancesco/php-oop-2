@@ -32,8 +32,8 @@
             'Premium Cat Food', 
             'Healthy and nutritious cat food', 
             17.99, 
+            $catsCategory,
             'Calories',
-            $catsCategory, 
             'Meat and fish',
         ),
 
@@ -42,8 +42,8 @@
             'Premium Dog Food', 
             'Healthy and nutritious dog food', 
             19.99, 
-            'Calories', 
             $dogsCategory,
+            'Calories', 
             'Meat and fish',
         ),
     ]
