@@ -1,4 +1,6 @@
-<?php  ?>
+<?php
+    include_once __DIR__ . '/data/database.php';
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -19,6 +21,7 @@
         <div class="row">
             
         <div class="col">
+        <?php foreach ($productsList as $product): ?>
             <div class="card border-info mb-3">
                 <div class="card-header">Header</div>
                     <img src="..." class="card-img-top" alt="...">
@@ -30,6 +33,7 @@
                     <small class="text-body-secondary">Last updated 3 mins ago</small>
                 </div>
             </div>
+        <?php endforeach ?>
         </div>
 
 

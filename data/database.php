@@ -1,6 +1,8 @@
 <?php
-    include_once __DIR__ . '/classes/categories.php';
-    include_once __DIR__ . '/classes/products.php';
+    include_once __DIR__ . '/../classes/categories.php';
+    include_once __DIR__ . '/../classes/products.php';
+    include_once __DIR__ . '/../classes/products/food.php';
+    include_once __DIR__ . '/../classes/products/toy.php';
 
     // Create instances of categories
     $dogsCategory = new Category('Dogs');

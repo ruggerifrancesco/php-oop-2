@@ -1,5 +1,5 @@
 <?php
-    include_once __DIR__ . '../../products.php';
+    include_once __DIR__ . '/../products.php';
 
     class Toy extends Products {
         private $nutritionalValues;
