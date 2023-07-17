@@ -4,21 +4,19 @@
     class Food extends Products {
         public $nutritionalValues;
         public $foodType;
-        public $category;
     
         public function __construct(
             $title, 
             $subtitle, 
             $description, 
             $price, 
+            $category,
             $nutritionalValues, 
             $foodType,
-            $category
         ) {
-            parent::__construct($title, $subtitle, $description, $price);
+            parent::__construct($title, $subtitle, $description, $price, $category);
             $this->nutritionalValues = $nutritionalValues;
             $this->foodType = $foodType;
-            $this->category = $category;
         }
     }
     

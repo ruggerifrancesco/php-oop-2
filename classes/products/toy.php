@@ -3,19 +3,17 @@
 
     class Toy extends Products {
         public $materialType;
-        public $category;
     
         public function __construct(
             $title, 
             $subtitle, 
             $description, 
-            $price, 
+            $price,
+            $category,
             $materialType,
-            $category
         ) {
-            parent::__construct($title, $subtitle, $description, $price);
+            parent::__construct($title, $subtitle, $description, $price, $category);
             $this->materialType = $materialType;
-            $this->category = $category;
         }
     }
 
