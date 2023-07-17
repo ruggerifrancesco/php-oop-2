@@ -10,9 +10,10 @@
             $description, 
             $price,
             $category,
+            $poster,
             $materialType,
         ) {
-            parent::__construct($title, $subtitle, $description, $price, $category);
+            parent::__construct($title, $subtitle, $description, $price, $category, $poster);
             $this->materialType = $materialType;
         }
     }

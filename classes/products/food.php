@@ -11,10 +11,11 @@
             $description, 
             $price, 
             $category,
+            $poster,
             $nutritionalValues, 
             $foodType,
         ) {
-            parent::__construct($title, $subtitle, $description, $price, $category);
+            parent::__construct($title, $subtitle, $description, $price, $category, $poster);
             $this->nutritionalValues = $nutritionalValues;
             $this->foodType = $foodType;
         }

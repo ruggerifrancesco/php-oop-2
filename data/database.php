@@ -15,6 +15,7 @@
             'Keep your dog entertained for hours', 
             9.99, 
             $dogsCategory,
+            'giocattolo-cane.jpg',
             'Durable material', 
         ),
 
@@ -24,6 +25,7 @@
             'Keep your cat entertained for hours', 
             8.99, 
             $catsCategory,
+            'giocattolo-gatto.jpg',
             'Non-toxic materials', 
         ),
 
@@ -33,6 +35,7 @@
             'Healthy and nutritious cat food', 
             17.99, 
             $catsCategory,
+            'cibo-gatto.jpg',
             'Calories',
             'Meat and fish',
         ),
@@ -43,6 +46,7 @@
             'Healthy and nutritious dog food', 
             19.99, 
             $dogsCategory,
+            'cibo-cane.jpg',
             'Calories', 
             'Meat and fish',
         ),
