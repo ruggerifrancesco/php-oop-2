@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Cani</h1>
-    <h1>Gatti</h1>
+    <h1>Dogs</h1>
+    <h1>Cats</h1>
 </body>
 </html>
