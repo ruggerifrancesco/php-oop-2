@@ -1,7 +1,7 @@
 <?php
     include_once __DIR__ . '/../products.php';
 
-    class Toy extends Products {
+    class Toy extends Product {
         public $materialType;
     
         public function __construct(

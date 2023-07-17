@@ -1,7 +1,7 @@
 <?php
     //Parent
 
-    class Products {
+    class Product {
         public $title;
         public $subtitle;
         public $description;
