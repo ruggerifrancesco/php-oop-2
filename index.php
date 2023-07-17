@@ -28,7 +28,7 @@
                         <div class="card-header">
                             <?php echo $product->category->category; ?>
                         </div>
-                            <img src="..." class="card-img" alt="...">
+                            <img src="assets/<?php echo $product->poster ?>" class="card-img" alt="<?php echo $product->title; ?>">
                         <div class="card-body">
                             <h5 class="card-title text-uppercase">
                                 <?php echo $product->title; ?>

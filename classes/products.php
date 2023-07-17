@@ -9,7 +9,14 @@
         public $category;
         public $poster;
 
-        public function __construct($title, $subtitle, $description, $price, $category, $poster) {
+        public function __construct(
+            string $title, 
+            string $subtitle, 
+            string $description, 
+            float $price, 
+            Category $category, 
+            string $poster
+        ) {
             $this->title = $title;
             $this->subtitle = $subtitle;
             $this->description = $description;
@@ -17,6 +24,5 @@
             $this->category = $category;
             $this->poster = $poster;
         }
-
     }
 ?>

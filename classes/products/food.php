@@ -19,6 +19,5 @@
             $this->nutritionalValues = $nutritionalValues;
             $this->foodType = $foodType;
         }
-    }
-    
-    ?>
+    } 
+?>
