@@ -3,7 +3,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en, it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,15 +30,18 @@
                         </div>
                             <img src="..." class="card-img" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">
+                            <h5 class="card-title text-uppercase">
                                 <?php echo $product->title; ?>
                             </h5>
                             <p class="card-text">
                                 <?php echo $product->description; ?>
                             </p>
-                            <p class="card-text">
-                                Price: $<?php echo $product->price; ?>
-                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <span>$<?php echo $product->price; ?></span>
+                            <button type="button" class="btn btn-outline-info">
+                                Scopri di piu
+                            </button>
                         </div>
                     </div>
                 <?php endforeach ?>

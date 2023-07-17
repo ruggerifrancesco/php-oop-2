@@ -1,6 +1,10 @@
 body {
     background-color: #0d1117;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .col {
@@ -14,4 +18,10 @@ body {
     color: white;
     width: calc((100% / 3) - 1rem);
     margin-left: 1rem;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
