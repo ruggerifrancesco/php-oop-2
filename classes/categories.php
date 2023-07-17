@@ -1,13 +1,9 @@
 <?php
     class Category {
-        private $name;
-    
-        public function __construct($name) {
-            $this->name = $name;
-        }
-    
-        public function getName() {
-            return $this->name;
+        public $category;
+
+        public function __construct($category) {
+            $this->category = $category;
         }
     }
 ?>
