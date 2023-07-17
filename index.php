@@ -14,34 +14,37 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
         <h1 class="text-center">Products List</h1>
 
-        <div class="row flex-wrap">
-            <?php foreach ($productsList as $product): ?>
-                <div class="card border-info mb-3 p-0">
-                    <div class="card-header">
-                        
+        <div class="row">
+            <div class="col">
+                <?php foreach ($productsList as $product): ?>
+                    <div class="card border-info mb-3">
+                        <div class="card-header">
+                            <?php echo $product->category->category; ?>
+                        </div>
+                            <img src="..." class="card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <?php echo $product->title; ?>
+                            </h5>
+                            <p class="card-text">
+                                <?php echo $product->description; ?>
+                            </p>
+                            <p class="card-text">
+                                Price: $<?php echo $product->price; ?>
+                            </p>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <?php echo $product->title; ?>
-                        </h5>
-                        <p class="card-text">
-                            <?php echo $product->description; ?>
-                        </p>
-                        <p class="card-text">
-                            Price: $<?php echo $product->price; ?>
-                        </p>
-                    </div>
-                </div>
-            <?php endforeach ?>
+                <?php endforeach ?>
+            </div>
         </div>
-
+        
 </div>
 </body>
 </html>
