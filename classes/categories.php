@@ -1,4 +1,13 @@
-<?php 
-// Aggiungere nuova classe chiamata Caterories (njon serve estendere)
-// alla classe pdoruct li do la proprieta categoria e si aspetta
- ?>
+<?php
+    class Category {
+        private $name;
+    
+        public function __construct($name) {
+            $this->name = $name;
+        }
+    
+        public function getName() {
+            return $this->name;
+        }
+    }
+?>
